@@ -1,0 +1,66 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>Lab_6</Name>
+    <ProjectGuid>ebaa4c72-5eb2-492f-bf19-152ac79d4e46</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>Lab 6</AssemblyName>
+    <SpecificPageValue>Index.php</SpecificPageValue>
+    <StartAction>SpecificPage</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Common\ConstraintsAndSettings.php" />
+    <Compile Include="Common\DisplayPicture.php" />
+    <Compile Include="Common\Footer.php" />
+    <Compile Include="Common\Header.php" />
+    <Compile Include="Common\Picture.php" />
+    <Compile Include="MyPictures.php" />
+    <Compile Include="UploadPicture.php" />
+    <Compile Include="Index.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="Contents\" />
+    <Folder Include="Contents\AlgCss\" />
+    <Folder Include="Contents\css\" />
+    <Folder Include="Contents\fonts\" />
+    <Folder Include="Contents\img\" />
+    <Folder Include="Contents\js\" />
+    <Folder Include="Pictures\" />
+    <Folder Include="Pictures\AlbumPictures\" />
+    <Folder Include="Pictures\AlbumThumbnails\" />
+    <Folder Include="Pictures\OriginalPictures\" />
+    <Folder Include="Scripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Contents\AlgCss\Site.css" />
+    <Content Include="Contents\css\bootstrap-theme.css" />
+    <Content Include="Contents\css\bootstrap-theme.css.map" />
+    <Content Include="Contents\css\bootstrap-theme.min.css" />
+    <Content Include="Contents\css\bootstrap-theme.min.css.map" />
+    <Content Include="Contents\css\bootstrap.css" />
+    <Content Include="Contents\css\bootstrap.css.map" />
+    <Content Include="Contents\css\bootstrap.min.css" />
+    <Content Include="Contents\css\bootstrap.min.css.map" />
+    <Content Include="Contents\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Contents\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Contents\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Contents\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Contents\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Contents\img\AC.png" />
+    <Content Include="Contents\js\bootstrap.js" />
+    <Content Include="Contents\js\bootstrap.min.js" />
+    <Content Include="Contents\js\npm.js" />
+    <Content Include="Scripts\jquery-2.2.4.min.js" />
+    <Content Include="Scripts\Site.js" />
+  </ItemGroup>
+</Project>
